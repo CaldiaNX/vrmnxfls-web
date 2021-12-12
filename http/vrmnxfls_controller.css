@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body { margin:0px; font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;}
+h1,h2{ margin:0px; padding:0px 1rem; background-color:#333399; color:#ffffff; font-size:5rem; font-weight:normal; text-align:center;}
+div  { margin-top:1rem;}
+div.way    {padding-top:1rem; margin:0rem 1rem;}
+label      {display:inline-block; width:44%; height:10rem; margin-left:1rem; padding-left:1rem; color:#333333; font-size:7rem; text-align:right;}
+input.slot {display:inline-block; width:45%; height:10rem; position:absolute; right:0px; margin-right:1rem; padding:0rem 1rem; font-size:10rem; background-color:#ccddff; color:#333333; text-align:right;}
+input.btn  {display:inline-block; width:48%; height:9rem; -webkit-appearance:none; font-size:6rem; border: 2px solid #bbbbbb; border-radius: 1rem; color:#333333;}
+input.btnstyle {
+  background: #f1e767;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdfbfb), to(#eceaed));
+  background: -webkit-linear-gradient(top, #fdfbfb 0%, #eceaed 100%);
+  background: linear-gradient(to bottom, #fdfbfb 0%, #eceaed 100%);
+  -webkit-box-shadow: inset 1rem 1rem 1rem #fff;
+  box-shadow: inset 1rem 1rem 1rem #fff;
+}
+input.btnstyle:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fdfbfb), to(#eceaed));
+  background: -webkit-linear-gradient(bottom, #fdfbfb 0%, #eceaed 100%);
+  background: linear-gradient(to top, #fdfbfb 0%, #eceaed 100%);
+}
+input.rgt {position:absolute; right:1rem;}
+input.green { background-color:#449933; color:#ffffff;}
+input.red { background-color:#666666; color:#ffffff;}
+pre {clear: both; visibility: hidden;}
