@@ -24,3 +24,4 @@ input.rgt {position:absolute; right:1rem;}
 input.green { background-color:#449933; color:#ffffff;}
 input.red { background-color:#666666; color:#ffffff;}
 pre {clear: both; visibility: hidden;}
+footer {padding:0px 6px; background-color:#cccccc; color:#333333;}
